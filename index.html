@@ -8,24 +8,26 @@
     <title>Pivot Calculator</title>
 </head>
 <body>
-    <div class="input">
+    <div class="input1">
     <input type="number" placeholder="Open" id="open">
-    <input type="number" placeholder="High" id="high">
+    <input type="number" placeholder="High" id="high"></div>
+    <div class="input2">
     <input type="number" placeholder="Low" id="low">
     <input type="number" placeholder="Close" id="close">
-    <button onclick="pivot()">Calc</button>
     </div>
-    <div class="output">
-        <p id="r3"></p>
-        <p id="r2"></p>
-        <p id="r1"></p>
-        <p id="pivot"></p>
-        <p id="s1"></p>
-        <p id="s2"></p>
-        <p id="s3"></p>
+    <div class="btn-div">
+        <button class="btn" onclick="pivot()">Calc</button>
     </div>
     
-
+    <div class="output">
+        <p>R3:<span id="r3"></span></p>        
+        <p>R2:<span id="r2"></span></p>        
+        <p>R1:<span id="r1"></span></p>
+        <p>P:<span id="pivot"></span></p>
+        <p>S1:<span id="s1"></span></p>
+        <p>S2:<span id="s2"></span></p>
+        <p>S3:<span id="s3"></span></p>
+    </div>
     <script src="script.js"></script>    
 </body>
 </html>
